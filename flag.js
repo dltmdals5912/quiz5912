@@ -1,23 +1,23 @@
 const quizData = [
     {
         question: "정답은?",
-        correct: "",
-        image: "https://img.khan.co.kr/news/2019/09/16/l_2019091701001670100138131.jpg"
+        correct: "사우디아라비아",
+        image: "https://i.namu.wiki/i/FmFuXL5Hyn9RJMh5-s7lkgk1ryh0tLNSADh60RBbd4uT4_aGXWNog09WI-HSrmSHtU7c1CmnfKsTx4XrWgYcEA.svg"
     },
     {
         question: "정답은?",
-        correct: "",
-        image: "https://previews.123rf.com/images/savanno/savanno1704/savanno170400902/76768164-%EB%A1%9C%EB%A7%88-%EC%88%AB%EC%9E%90%EC%99%80-%EC%8B%9C%EA%B3%84-9%EC%8B%9C-%EC%A0%95%EA%B0%81.jpg"
+        correct: "스코틀랜드",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/270px-Flag_of_Scotland.svg.png"
     },
     {
         question: "정답은?",
-        correct: "",
-        image: "https://image.edaily.co.kr/images/photo/files/NP/S/2023/03/PS23032500093.jpg"
+        correct: "라오스",
+        image: "https://i.namu.wiki/i/En65PgtBmBO1V_fIvknzdZXhj0t2LnUiT1GVUecGrPUArfRr25rjeoT6gS2Ew1zd2f0LqEIWm-nNeBon5rU-Jg.svg"
     },
     {
         question: "정답은?",
-        correct: "",
-        image: "https://ilyo.co.kr/contents/article/images/2020/0901/1598949067637300.jpg"
+        correct: "홍콩",
+        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/1200px-Flag_of_Hong_Kong.svg.png"
     },
     {
         question: "정답은?",
