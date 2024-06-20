@@ -4,7 +4,7 @@ const quizData = [
         correct: "십자가",
     },
     {
-        question: "말은 영어로 홀스이다. 말이 두마리면?",
+        question: "말은 영어로 horse다. 말이 두마리면?",
         correct: "짝수",
     },
     {
@@ -12,8 +12,8 @@ const quizData = [
         correct: "허수",
     },
     {
-        question: "정답은?",
-        correct: "축구선수",
+        question: "?",
+        correct: "",
     },
     {
         question: "채소 장사꾼이 가장 싫어하는 나라(도시)는?",
@@ -28,14 +28,14 @@ const quizData = [
         correct: "베이징",
     },
     {
-        question: "팥이 목 마를 때 콩에게 하는 말은?",
-        correct: "콩나물",
+        question: "세상에서 가장 힘쎈 말과 고양이를 네글자로 하면??",
+        correct: "슈퍼마켓",
     },    {
-        question: "팥이 목 마를 때 콩에게 하는 말은?",
-        correct: "콩나물",
+        question: "양이 삐지면?",
+        correct: "양치",
     },    {
-        question: "팥이 목 마를 때 콩에게 하는 말은?",
-        correct: "콩나물",
+        question: "소나무가 삐지면??",
+        correct: "칫솔",
     },
 ];
 
@@ -118,3 +118,4 @@ function submitAnswer() {
         }
     }, 3000); // 3초 후 다음 문제로 이동
 }
+
