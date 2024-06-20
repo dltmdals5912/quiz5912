@@ -1,38 +1,41 @@
 const quizData = [
     {
-        question: "정답은?",
-        correct: "사우디아라비아",
-        image: "https://i.namu.wiki/i/FmFuXL5Hyn9RJMh5-s7lkgk1ryh0tLNSADh60RBbd4uT4_aGXWNog09WI-HSrmSHtU7c1CmnfKsTx4XrWgYcEA.svg"
+        question: "예수가 옷이 작을 때 하는 말은?",
+        correct: "십자가",
+    },
+    {
+        question: "말은 영어로 홀스이다. 말이 두마리면?",
+        correct: "짝수",
+    },
+    {
+        question: "허수아비의 아들은?",
+        correct: "허수",
     },
     {
         question: "정답은?",
-        correct: "스코틀랜드",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/1/10/Flag_of_Scotland.svg/270px-Flag_of_Scotland.svg.png"
+        correct: "축구선수",
     },
     {
-        question: "정답은?",
-        correct: "라오스",
-        image: "https://i.namu.wiki/i/En65PgtBmBO1V_fIvknzdZXhj0t2LnUiT1GVUecGrPUArfRr25rjeoT6gS2Ew1zd2f0LqEIWm-nNeBon5rU-Jg.svg"
+        question: "채소 장사꾼이 가장 싫어하는 나라(도시)는?",
+        correct: "시드니",
     },
     {
-        question: "정답은?",
-        correct: "홍콩",
-        image: "https://upload.wikimedia.org/wikipedia/commons/thumb/5/5b/Flag_of_Hong_Kong.svg/1200px-Flag_of_Hong_Kong.svg.png"
+        question: "네 사람이 동시에 오줌을 누면?",
+        correct: "포뇨",
     },
     {
-        question: "정답은?",
-        correct: "",
-        image: ""
+        question: "중국인이 칼질이 서툴면?",
+        correct: "베이징",
     },
     {
-        question: "정답은?",
-        correct: "",
-        image: ""
-    },
-    {
-        question: "정답은?",
-        correct: "",
-        image: ""
+        question: "팥이 목 마를 때 콩에게 하는 말은?",
+        correct: "콩나물",
+    },    {
+        question: "팥이 목 마를 때 콩에게 하는 말은?",
+        correct: "콩나물",
+    },    {
+        question: "팥이 목 마를 때 콩에게 하는 말은?",
+        correct: "콩나물",
     },
 ];
 
