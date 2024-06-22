@@ -12,8 +12,8 @@ const quizData = [
         correct: "허수",
     },
     {
-        question: "?",
-        correct: "",
+        question: "일본인이 뜨거운 탕에 들어갔을 때 하는 말은??",
+        correct: "와따시노",
     },
     {
         question: "채소 장사꾼이 가장 싫어하는 나라(도시)는?",
@@ -36,7 +36,12 @@ const quizData = [
     },    {
         question: "소나무가 삐지면??",
         correct: "칫솔",
+    },    {
+        question: "일본인이 신걸 먹었을 때 하는 말은?",
+        correct: "와따시노",
     },
+    
+    
 ];
 
 let currentQuiz = 0;
