@@ -67,17 +67,12 @@ const quizData = [
     {
         question: "정답은?",
         correct: "아제르바이잔",
-        image: "https://i.namu.wiki/i/Ih_LIVqW2uBHGv7FPCZb1kZZNDu2NXEcI1PJeN8F1R2hnrFbsNmokGndweZfSxjMta4_fog2FkbGqWWTVGB5CA.svg"
-    },
-    {
-        question: "정답은?",
-        correct: "가나",
-        image: "https://i.namu.wiki/i/hOFvgpQKk11s2mYCFtfKzK-1ET4d4oFh8Ay-uFSesRx32Eh_p9ujOcuFwOCPgK0kweq7pCVzD2yF5GJ_d1vI2A.svg"
+        image: "https://i.namu.wiki/i/IhEozRCLzBF3h5PUGT-aJwSotNg0eAuZTljtMNfApKQxU-tCFVT8fNwWxbpF7muiEo_n1YT5JEI6RnluXtSOtg.svg"
     }
+    // 추가할 수 있는 퀴즈 데이터
 ];
 
 let currentQuiz = 0;
-let score = 0;
 
 function loadQuiz() {
     const quiz = quizData[currentQuiz];
@@ -86,7 +81,6 @@ function loadQuiz() {
     document.getElementById('quiz-image').style.display = 'block';
     document.getElementById('answer').value = '';
     document.getElementById('feedback').textContent = '';
-    document.getElementById('score').textContent = `현재 점수: ${score}`;
 }
 
 function submitAnswer() {
@@ -94,7 +88,6 @@ function submitAnswer() {
     const quiz = quizData[currentQuiz];
 
     if (answer === quiz.correct) {
-        score++;
         currentQuiz++;
         if (currentQuiz < quizData.length) {
             loadQuiz();
@@ -102,10 +95,9 @@ function submitAnswer() {
             document.getElementById('quiz').style.display = 'none';
             document.getElementById('quiz-complete-message').textContent = '퀴즈를 모두 완료했습니다!';
             document.getElementById('page2-container').querySelector('.page2-btn').style.display = 'block';
-            document.getElementById('score').textContent = `최종 점수: ${score} / ${quizData.length}`;
         }
     } else {
-        document.getElementById('feedback').textContent = '틀렸습니다. 다시 시도하세요.';
+        document.getElementById('feedback').textContent = '땡! 다시!.';
     }
 }
 
