@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="animal.css">
 </head>
 <body>
-    <div class="quiz-container">
+    <div id="quiz-container" class="quiz-container">
         <h1>동물 퀴즈</h1>
         <img id="animal-image" src="images/animal1.jpg" alt="Animal">
-        <input type="text" id="answer" placeholder="Enter the animal name">
+        <input type="text" id="answer" placeholder="Enter the animal name" onkeydown="if(event.key === 'Enter') checkAnswer()">
         <button onclick="checkAnswer()">제출</button>
         <p id="result"></p>
+    </div>
+    <div id="completion-container" class="completion-container" style="display: none;">
+        <h2>퀴즈 완료!</h2>
+        <p id="final-score"></p>
+        <button onclick="window.location.href='page3.html'">레전드 퀴즈 사이트</button>
     </div>
     <script src="animal.js"></script>
 </body>

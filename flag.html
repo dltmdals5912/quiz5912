@@ -57,12 +57,11 @@
             color: red;
             margin-top: 10px;
         }
-        /* 추가된 스타일 */
         .page2-btn {
             position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: 50px; /* 아래에서 50px의 간격 */
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: 50px; /* 아래에서 50px의 간격 */
             background-color: #4CAF50; /* Green */
             border: none;
             color: white;
@@ -79,6 +78,17 @@
             font-size: 24px;
             margin-bottom: 20px;
         }
+        .score {
+            font-size: 20px;
+            margin-top: 10px;
+            padding: 10px;
+            background-color: #f8f9fa;
+            border: 2px solid #6c757d;
+            border-radius: 10px;
+            display: inline-block;
+            color: #343a40;
+            font-weight: bold;
+        }
     </style>
 </head>
 <body>
@@ -87,7 +97,7 @@
             <div class="quiz-complete-message" id="quiz-complete-message"></div>
             <div class="question" id="question">질문이 여기에 표시됩니다.</div>
             <img src="" alt="Quiz Image" id="quiz-image" class="image" style="display:none;">
-            <input type="text" id="answer" class="answer-input" placeholder="답을 입력하세요">
+            <input type="text" id="answer" class="answer-input" placeholder="답을 입력하세요" onkeydown="if(event.key === 'Enter') submitAnswer()">
             <button class="submit-btn" onclick="submitAnswer()">제출</button>
             <div id="feedback" class="feedback"></div>
         </div>
@@ -97,6 +107,9 @@
     <div id="page2-container">
         <button class="page2-btn" onclick="window.location.href='page2.html'">퀴즈 사이트로 이동</button>
     </div>
+
+    <!-- 점수 표시 -->
+    <div class="score" id="score">현재 점수: 0</div>
 
     <script src="flag.js"></script>
 </body>
